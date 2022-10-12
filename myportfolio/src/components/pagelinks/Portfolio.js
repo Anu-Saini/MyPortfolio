@@ -1,16 +1,18 @@
 import React from "react";
 import Project from "../Project";
-import image1 from "../../assets/images/screenshort01.jpg";
-import image2 from "../../assets/images/screenshort01.jpg";
-import image3 from "../../assets/images/screenshort01.jpg";
-import image4 from "../../assets/images/screenshort01.jpg";
+// import image01 from "/Assets/images/screenshort01.jpg";
+// import image2 from "../../assets/images/screenshort01.jpg";
+// import image3 from "../../assets/images/screenshort01.jpg";
+// import image4 from "../../assets/images/screenshort01.jpg";
+
+const image01 = '/Assets/images/screenshort01.jpg';
 
 const Projects = [
  { //project1
   name: 'Horiseon Code Refactor',
   tech: 'HTML, CSS',
   image: image01,
-  alt: 'image for the horison Code Refractor'
+  alt: 'image for the horison Code Refractor',
   link: 'https://anu_sainigithub.io/horison.........',
   ghlink: 'https://anu_sainigithub.io/horison.........'
  },
@@ -18,7 +20,7 @@ const Projects = [
   name: 'Horiseon Code Refactor',
   tech: 'HTML, CSS',
   image: image01,
-  alt: 'image for the horison Code Refractor'
+  alt: 'image for the horison Code Refractor',
   link: 'https://anu_sainigithub.io/horison.........',
   ghlink: 'https://anu_sainigithub.io/horison.........'
  },
@@ -26,7 +28,7 @@ const Projects = [
   name: 'Horiseon Code Refactor',
   tech: 'HTML, CSS',
   image: image01,
-  alt: 'image for the horison Code Refractor'
+  alt: 'image for the horison Code Refractor',
   link: 'https://anu_sainigithub.io/horison.........',
   ghlink: 'https://anu_sainigithub.io/horison.........'
  },
@@ -34,7 +36,7 @@ const Projects = [
   name: 'Horiseon Code Refactor',
   tech: 'HTML, CSS',
   image: image01,
-  alt: 'image for the horison Code Refractor'
+  alt: 'image for the horison Code Refractor',
   link: 'https://anu_sainigithub.io/horison.........',
   ghlink: 'https://anu_sainigithub.io/horison.........'
  },
@@ -42,7 +44,7 @@ const Projects = [
   name: 'Horiseon Code Refactor',
   tech: 'HTML, CSS',
   image: image01,
-  alt: 'image for the horison Code Refractor'
+  alt: 'image for the horison Code Refractor',
   link: 'https://anu_sainigithub.io/horison.........',
   ghlink: 'https://anu_sainigithub.io/horison.........'
  }
