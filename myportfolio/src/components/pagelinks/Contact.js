@@ -79,18 +79,18 @@ export default function Contact() {
 <p className="error-text"> {errorMessage}</p>
     </div>
    )}
-   <div class="email-copy">
+   <div class="emailnote">
     <br></br>
-    <p>Feel Free to email me at: </p>
-    <a href='mailto:anuraagsaini@yahoo.co.in'
+    <p>for any Eqnuiries please email me at: </p>
+    <a href='mailto:anuraag.saini@yahoo.com'
     style={{
-     color:'red',
-     marginRight:'15px',
-     fontSize:'18px',
+     color:'blue',
+     marginRight:'18px',
+     fontSize:'24px',
     }} >
-     anuraagsaini@yahoo.co.in
+     anuraag.saini@yahoo.com
     </a>
-    <p>for any further enquiries!</p>
+    
    </div>
   </div>
  );

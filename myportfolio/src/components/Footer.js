@@ -1,29 +1,26 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Footer () {
  return (
   <footer className="footer">
-   <div className="footer-icon-section">
+   <div className="footericon">
     <a href="https://github.com.............." target="blank">
-     <FaGithub 
-     style={{
-color: "#FFEC1F",
-fontSize:"50px"
-     }}
-     /> </a>
+     <FaGithub /> 
+     </a>
    <a href="https://linkedin.com.............." target="blank">
-     <FaLinkedin 
-     style={{
-color: "#FFEC1F",
-fontSize:"50px"
-     }}
-     />      
+     <FaLinkedin  />   
+    </a>
+    <a href="https://facebook.com.............." target="blank">
+     <FaFacebookF   />      
+    </a>
+    <a href="https://twitter.com.............." target="blank">
+     <FaTwitter  />      
     </a>
    </div>
-   <div className="footer-text-section">
-    <p className="	footer-text">
-     Website Built using React by Anuraag Saini @2022
+   <div className="footernote">
+    <p > 
+         Website Built using React by Anuraag Saini @2022
     </p>
    </div>
   </footer>
