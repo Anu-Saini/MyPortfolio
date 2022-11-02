@@ -12,7 +12,7 @@ height="350px" width="350px"
 />
 </div>
 <h1 class="about-h1">
- Hi, My name is <br></br>
+ Hi, I am <br></br>
  <span class="namebody"> Anuraag Saini</span>
 </h1>
 <div class="mainbody">
@@ -31,10 +31,8 @@ height="350px" width="350px"
 </div>
 <div class="tech-icons">
  <FaHtml5  /> {''}
- <FaCss3Alt  /> {''}
  <FaJs  />{''}
- <FaNodeJs  /> {''}
-  <FaNode  /> {''}
+ <FaNode  /> {''}
 </div>
 </div>
 );

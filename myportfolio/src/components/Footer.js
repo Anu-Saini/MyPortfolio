@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebookF, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Footer () {
- return (
+ return ( 
   <footer className="footer">
    <div className="footericon">
     <a href="https://github.com.............." target="blank">
@@ -20,7 +20,7 @@ function Footer () {
    </div>
    <div className="footernote">
     <p > 
-         Website Built using React by Anuraag Saini @2022
+         Website Built using React   - - -       Copyright@2022 - AnuraagSaini
     </p>
    </div>
   </footer>

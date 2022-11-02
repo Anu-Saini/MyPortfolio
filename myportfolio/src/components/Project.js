@@ -8,10 +8,10 @@ export default function Project(props) {
         <img src={props.image} alt={props.alt} width="100%" class="card-img" />
         <div class="card-body">
           <a href={props.link} target="blank" class="card-header">
-            <h2> {props.name} </h2>
+            <h2> Project Name : {props.name} </h2>
           </a>
-          <div class="row">
-            <p class="card-tech"> {props.tech}</p>
+          <div class="cardrow">
+            <p class="card-tech"> Technology Used in project:  {props.tech}</p>
             <a href={props.ghlink} target="blank">
               <FaGithub
                 style={{

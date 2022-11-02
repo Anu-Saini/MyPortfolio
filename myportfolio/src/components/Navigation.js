@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../Assets/resume.docx";
+import resume from "../Assets/Anu_resume.docx";
 // C:\Users\SAINI\Desktop\MyPortfolio\myportfolio\src\Assets\resume.docx
 
 function NavTabs({ currentPage, handlePageChange }) {

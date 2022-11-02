@@ -27,7 +27,7 @@ const handlePageChange = (page) => SetCurrentPage(page);
  return (
   <div>
   <header className="header">
-   <h1 className="header-text"> Anuraag Saini</h1>
+   <h1 className="header-text"> Anuraag saini</h1>
    <NavTabs
     currentPage = {currentpage}
     handlePageChange={handlePageChange}

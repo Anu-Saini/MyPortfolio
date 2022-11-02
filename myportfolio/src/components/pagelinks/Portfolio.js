@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "../Project";
 import seasideCafe from "../../Assets/images/01_mainpage.jpg";
+import animalkingdom from "../../Assets/images/animalkingdom.jpg";
 import CRM from "../../Assets/images/getTags.jpg";
 import SocialSite from "../../Assets/images/mainpage.jpg";
 import teambuilder from "../../Assets/images/teamhtml.jpg";
@@ -8,7 +9,14 @@ import teambuilder from "../../Assets/images/teamhtml.jpg";
 const image01 = '/Assets/images/screenshort01.jpg';
 
 const projects = [
- { //project1
+  { //project1
+    name: 'The Animal Kingdom',
+    tech: 'React.js,Ant design, Node.js, Expresss.js, MongoDB / MongoDB Atlas, Azure Storage Blobs',
+    image: animalkingdom,
+    alt: 'image for the seaside website',
+    link: 'https://github.com/Anu-Saini/the_animal_kingdom.git',
+   },
+    { //project1A
   name: 'SeaSide Cafe',
   tech: 'HTML, CSS , MVC, node, express',
   image: seasideCafe,
@@ -35,7 +43,15 @@ const projects = [
   image: teambuilder,
   alt: 'image for the team card Builder',
   link: 'https://github.com/Anu-Saini/team_profile_builder.git'
+ },
+ { //project6
+name: 'Ecommerce Backend',
+  tech: 'node.js, express, MySql',
+  image: CRM,
+  alt: 'image for backend Ecommerce',
+  link: 'https://github.com/Anu-Saini/E-commerce.git',
  }
+
 ];
 
 export default function allProjects() {
